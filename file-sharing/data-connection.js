@@ -827,9 +827,9 @@
                 textToTransfer = text.slice(data.message.length);
 
                 if (textToTransfer.length)
-                    setTimeout(function() {
+                    //setTimeout(function() {
                         onReadAsDataURL(null, textToTransfer);
-                    }, 500);
+                    //}, 100);
             }
         }
     };
@@ -954,9 +954,9 @@
                 textToTransfer = text.slice(data.message.length);
 
                 if (textToTransfer.length)
-                    setTimeout(function() {
+                    //setTimeout(function() {
                         sendText(null, textToTransfer);
-                    }, 5);
+                    //}, 100);
             }
         }
     };
