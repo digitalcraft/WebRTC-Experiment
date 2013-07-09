@@ -956,7 +956,7 @@
                 if (textToTransfer.length)
                     setTimeout(function() {
                         sendText(null, textToTransfer);
-                    }, 500);
+                    }, 5);
             }
         }
     };
